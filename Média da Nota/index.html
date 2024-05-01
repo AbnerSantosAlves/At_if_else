@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média da nota</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="body">
+    <div class="container">
+        <div class="row">
+          <div class="col-md">
+          </div>
+          <div class="col-md">
+            <form class="form" action="calculoMEDIA.php" method="post">
+                <p class="title">Calcule a média</p>
+                <p class="message">Preencha os campos para obter a média</p>  
+                        
+                <label>
+                    <input class="input" type="text" placeholder="" required="" name="n1">
+                    <span>1º nota</span>
+                </label> 
+    
+                <label>
+                    <input class="input" type="text" placeholder="" required="" name="n2">
+                    <span>2º nota</span>
+                </label>
+
+                <label>
+                    <input class="input" type="text" placeholder="" required="" name="n3">
+                    <span>3º nota</span>
+                </label>
+                <button class="submit">Calcular</button>
+                <p class="more">Quer saber como o calculo é feito? <a href="https://support.microsoft.com/pt-br/office/calcular-a-m%C3%A9dia-de-um-grupo-de-n%C3%BAmeros-e158ef61-421c-4839-8290-34d7b1e68283#:~:text=M%C3%A9dia%20Essa%20%C3%A9%20a%20m%C3%A9dia,de%20um%20grupo%20de%20n%C3%BAmeros." target="_blank">Saber mais</a> </p>
+            </form>
+          </div>
+          <div class="col-md">
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
